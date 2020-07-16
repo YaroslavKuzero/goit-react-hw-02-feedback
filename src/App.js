@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react';
+import Vidget from './components/Vidget';
+
 import './css/body.css';
-import Phonebook from './components';
 
 function App() {
   return (
     <Fragment>
-      <Phonebook />
+      <Vidget />
     </Fragment>
   );
 }

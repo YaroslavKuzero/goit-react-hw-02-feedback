@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-02-phonebook",
+  "name": "goit-react-hw-02-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://YaroslavKuzero.github.io/goit-react-hw-02-phonebook",
+  "homepage": "http://YaroslavKuzero.github.io/goit-react-hw-02-feedback",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -41,7 +41,6 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
-    "react-chartjs-2": "^2.9.0",
-    "uuid": "^8.2.0"
+    "react-chartjs-2": "^2.9.0"
   }
 }
