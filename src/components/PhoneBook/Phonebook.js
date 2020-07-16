@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Form from '../Form';
 import Filter from '../FindContact'
 import ContactList from '../ContactList';
+import styles from './PhoneBook.module.css'
 import { v4 as uuidv4 } from 'uuid';
 
 
@@ -53,11 +54,12 @@ class Phonebook extends Component {
     const visibleContacts = this.getFilteredContacts();
 
     return (
-      <div>
-        <h1>Phonebook</h1>
+      <div className={styles.phonebook}>
+        <h1 className={styles.phonebook_header}>Phonebook</h1>
+        <h2 className={styles.section_header}>Create a new contact</h2>
         <Form onSubmit={this.onSubmitHandler} />
 
-        <h2>Contacts</h2>
+        <h2 className={styles.section_header}>Contacts</h2>
         <Filter value={this.state.filter} onChange={this.changeFilterHandler} />
         <ContactList renderItems={visibleContacts} totalItems={this.state.contacts} handler={this.deleteContactHandler} />
       </div >
