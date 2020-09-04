@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import { section, header } from './SectionHeader.module.css';
 
 const SectionHeader = ({ title, children }) => (
